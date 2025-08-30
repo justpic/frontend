@@ -1,5 +1,7 @@
+import FeedPage from './pages/feed'
+
 function App() {
-	return <h1>Vite + React</h1>
+	return <FeedPage />
 }
 
 export default App
