@@ -1,7 +1,13 @@
+import Headbar from './components/headbar'
 import FeedPage from './pages/feed'
 
 function App() {
-	return <FeedPage />
+	return (
+		<>
+			<Headbar />
+			<FeedPage />
+		</>
+	)
 }
 
 export default App
